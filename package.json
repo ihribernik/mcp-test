@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint ./src --ext .ts",
     "build": "tsc",
-    "format": "prettier --write ./src"
+    "format": "prettier --write ./src",
+    "watch": "tsc --watch"
   },
   "files": [
     "build"
