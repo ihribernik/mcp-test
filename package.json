@@ -6,7 +6,7 @@
     "mcp-test": "./build/index.js"
   },
   "scripts": {
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint ./src --ext .ts",
     "build": "tsc",
     "format": "prettier --write ./src"
   },
