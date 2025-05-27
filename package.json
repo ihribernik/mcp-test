@@ -15,8 +15,24 @@
     "build"
   ],
   "author": "ivan hribernik <cihribernik@gmail.com>",
-  "license": "ISC",
-  "description": "",
+  "license": "GPL-3.0-or-later",
+  "description": "Ejemplo de consumo del Model Context Protocol (MCP) usando Node.js y TypeScript.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ihribernik/mcp-test.git"
+  },
+  "keywords": [
+    "mcp",
+    "model context protocol",
+    "typescript",
+    "nodejs",
+    "ai",
+    "sdk"
+  ],
+  "homepage": "https://github.com/ihribernik/mcp-test",
+  "bugs": {
+    "url": "https://github.com/ihribernik/mcp-test/issues"
+  },
   "devDependencies": {
     "@eslint/js": "^9.27.0",
     "@types/node": "^22.15.22",
