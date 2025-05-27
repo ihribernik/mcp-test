@@ -11,14 +11,27 @@ Este proyecto es un **MCP** (Message Control Protocol) que corre en modo **stdio
 ## ¿Cómo conectar el MCP con el cliente desktop de Claude?
 
 1. **Descarga e instala el cliente desktop de Claude** si aún no lo tienes.
-2. **Ejecuta el MCP** desde la terminal:
+2. **Prepara y ejecuta el MCP** siguiendo estos pasos:
 
-   ```sh
-   npm run build
-   node run build/index.js
-   ```
+    1. Instala las dependencias del proyecto:
 
-   O el comando correspondiente según tu entorno.
+        ```sh
+        npm install
+        ```
+
+    2. Compila el proyecto:
+
+        ```sh
+        npm run build
+        ```
+
+    3. Ejecuta el MCP:
+
+        ```sh
+        node build/index.js
+        ```
+
+    > Asegúrate de estar en la carpeta raíz del proyecto antes de ejecutar estos comandos.
 
 3. **Configura el cliente de Claude** para que utilice el MCP como backend:
 
