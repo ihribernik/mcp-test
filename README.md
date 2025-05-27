@@ -14,7 +14,8 @@ Este proyecto es un **MCP** (Message Control Protocol) que corre en modo **stdio
 2. **Ejecuta el MCP** desde la terminal:
 
    ```sh
-   node index.js
+   npm run build
+   node run build/index.js
    ```
 
    O el comando correspondiente según tu entorno.
