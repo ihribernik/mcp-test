@@ -1,0 +1,3 @@
+# Prettier ignores
+build/
+node_modules/
